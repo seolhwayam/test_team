@@ -27,4 +27,9 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/nav", method = RequestMethod.GET)
+	public String nav( Model model) {
+		return "nav";
+	}
+	
 }
