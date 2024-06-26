@@ -6,8 +6,7 @@
 <!DOCTYPE html>
 <html lang="ko"> 
 <head>
-	<c:import url="../nav.jsp" var="NavBar"/>
-	<c:out value="${NavBar}" escapeXml="false"/>
+	
     <meta charset="UTF-8">
     <style>
         * {
